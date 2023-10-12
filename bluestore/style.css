@@ -59,11 +59,71 @@ ul a:hover{
     justify-content: space-between;
 }
 
-
-
-
-
 .imagens-header{
     width: 50px;
 }
 
+/* banner um */
+/* main{
+    
+} */
+
+.banner-um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    height: 800px;
+}
+
+.escrita-banner-um{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.banner-um h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 55px;
+}
+
+.escrita-banner-um p{
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    display: flex;
+    text-align: justify;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.botao-banner-um{
+    width: 230px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #0077e7;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.botao-banner-um:hover{
+    width: 235px;
+    height: 55px;
+    transition: 0.7s;
+    font-size: 19px;
+}
+
+.seta-botao{
+    width: 20px;
+}
+
+.imagem-banner-um{
+    width: 580px;
+}
