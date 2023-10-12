@@ -158,7 +158,7 @@ main h2{
     padding-top: px;
 }
 
-.produtos-banner-tres{
+.produtos-banners{
     display: flex;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -186,4 +186,9 @@ main h2{
 .preço-produto{
     font-weight: 600;
     font-size: 18px;
+}
+
+/* ultimos produtos */
+.banner-ultimos-produtos{
+    
 }
